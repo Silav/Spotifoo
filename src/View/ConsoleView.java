@@ -152,8 +152,8 @@ public class ConsoleView{
     {
         try
         {
-            String OperatingSystem = System.getProperty("os.name");
-            if(OperatingSystem.contains("Windows")) {
+            String OpSystem = System.getProperty("os.name");
+            if(OpSystem.contains("Windows")) {
                 new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
             }
             else
