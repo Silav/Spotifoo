@@ -62,8 +62,7 @@ public class SongsController {
     public static String getChoice()
     {
         Scanner inp = new Scanner(System.in);
-        String choice = inp.nextLine();
-        return choice;
+        return inp.nextLine();
     }
 
     public static void PlaySong(ArrayList<SongInfo> arr, int index)
@@ -95,7 +94,7 @@ public class SongsController {
             else
             {
                 System.out.println("\u274C" + " could not play song");
-                TimeUnit.SECONDS.sleep(2);
+                TimeUnit.SECONDS.sleep(1);
             }
 
         }
