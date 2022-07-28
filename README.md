@@ -43,7 +43,7 @@ The intention is to quickly find your favorite songs without needing to scroll t
 
 * In this project the mandatory requirements and (INFINITY SCANNER and SUPER SEARCH) from extra onse have been developed.
 
-## Project Structure
+## Project structure
 The project is devided based on the mvc (Model View Controller). Where the Model contains reading of the file the data.txt and the Controller contains the logic for
 example searching the songs and anything related functionality that requires the logic behind it, and the View
 contains all the interfaces. Apart from that there is also Main file that is basicaly the main flow of the program which triggers all the functions.
@@ -51,3 +51,7 @@ contains all the interfaces. Apart from that there is also Main file that is bas
 ## How to run
 * Create a jar file https://www.youtube.com/watch?v=_XQjs1xGtaU.
 * The jar file and the assets folder must be in the same place to be able to run it.
+* Use cmd (command line) to run by writing the following 
+```bash
+java -jar Spotifoo.jar
+``` 
